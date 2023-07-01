@@ -16,7 +16,7 @@ dotenv.config();
 
 mongoose.connect(
   // process.env.MONGO_URL,
-  "mongodb+srv://badmus:olawole27@cluster1.ondgqvx.mongodb.net/",
+  "mongodb+srv://fatimahbadmus04:Wemzy@cluster0.3sykm3p.mongodb.net/?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true },
   () => {
     console.log("Connected to MongoDB");
